@@ -1,2 +1,2 @@
 #!/bin/bash
-mv [[:upper:]]* 
+grep -l "bin" /etc/passwd | wc -1 
